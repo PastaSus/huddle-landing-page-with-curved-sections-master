@@ -706,6 +706,10 @@ medium: 11px
     padding: var(--spacing-16) var(--spacing-64);
   }
 
+  .curved-bg {
+    width: 100%;
+  }
+
   .footer__logo {
     width: 250px;
   }
