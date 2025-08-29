@@ -635,6 +635,18 @@ textarea:not([rows]) {
     width: 150px;
   }
 
+  .btn {
+    border-radius: 30px;
+  }
+
+  .header__btn {
+    padding: 0.375rem var(--spacing-24);
+  }
+
+  .cta__btn {
+    padding-inline: var(--spacing-80);
+  }
+
   .container,
   .footer .container {
     max-width: 1000px;
