@@ -96,64 +96,6 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-/* 
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-/* 
-- font-weights
-default: 400
-medium_500
-semi-bold_600
-bold_700
-
-- Line heights
-Default: 1
-small:1.05
-medium:1.2
-paragraph defalt: 1.6
-large: 1.8
-
--Letter spacing
--0.5px
-0.75px
-
-02 colors
-
-natural color
-primary: #e67e22
-Tints:
-#fdf2e9
-#fae5d3
-
-dark color
-Shades: 
-#cf711f;
-#45260a
-
-Accents
-
-fades
-Greys:
-#333
-#555
-#888
-#767676 (ligtest gray allowed on #fff)
-#6f6f6f (lightest gray alllowed
-
-05 shadows
-box-shadow: 0 2.4px 4.8px rgba(0, 0, 0, 0.075);
-
-06 border-radius
-default:9px
-medium: 11px
-
-07 whitespace */
-
 :root {
   /* ### Primary */
 
@@ -219,6 +161,18 @@ medium: 11px
   --spacing-128: 8rem; /* 128px */
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* prevent text wrapping */
+  border: 0;
+}
+
 /* .wrapper {
   margin: 0 auto;
   max-width: 335px;
@@ -252,13 +206,11 @@ medium: 11px
 
 .header__btn {
   padding: var(--spacing-8) var(--spacing-24);
-
+  text-decoration: none;
   border: 1px solid var(--Light-Red);
 
   background-color: var(--Very-Pale-Blue);
-
   color: var(--Light-Red);
-
   transition: all 0.1s ease-in-out;
 }
 
@@ -279,7 +231,6 @@ medium: 11px
 
 .heading {
   font-family: "Poppins", sans-serif;
-
   font-weight: 700;
 }
 
@@ -300,7 +251,7 @@ medium: 11px
   padding: var(--spacing-12) var(--spacing-32);
   background-color: var(--Pink);
   color: var(--Very-Pale-Blue);
-
+  text-decoration: none;
   border: none;
   font-weight: 600;
   box-shadow: 0 7px 3px rgba(0, 0, 0, 0.095);
@@ -355,16 +306,11 @@ medium: 11px
 }
 
 .main__grow-together {
-  /* background-color: var(--Very-Pale-Blue); */
   position: relative;
 }
 
-.main__flowing-conversation {
-  /* position: relative; */
-}
-
-.main__your-users {
-  /* position: relative; */
+.curved-bg {
+  width: 100%;
 }
 
 .main__bgcolor {
@@ -701,10 +647,6 @@ medium: 11px
 
   .main__cta .cta__btn {
     padding: var(--spacing-16) var(--spacing-64);
-  }
-
-  .curved-bg {
-    width: 100%;
   }
 
   .footer__logo {
