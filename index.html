@@ -43,15 +43,16 @@
             </g>
           </svg>
 
-          <button class="header__btn btn">Try it free</button>
+          <a class="header__btn btn" href="#">Try it free</a>
         </div>
       </header>
       <main class="main">
-        <sectdion
+        <section
           class="huddle-landing-page-with-curved-sections__intro container"
+          aria-labelledby="main-heading"
         >
-          <article class="main__intro">
-            <h1 class="main__heading heading">
+          <div class="main__intro">
+            <h1 class="main__heading heading" id="main-heading">
               Build The Community Your Fans Will Love
             </h1>
             <p class="main__desc">
@@ -59,47 +60,47 @@
               but so does your audience. Create connections with your users as
               you engage in genuine discussion.
             </p>
-            <button class="cta__btn btn">Get Started For Free</button>
-          </article>
-          <article class="main__mockup-svg-container">
+            <a href="#" class="cta__btn btn">Get Started For Free</a>
+          </div>
+          <div class="main__mockup-svg-container">
             <img
               class="main__mockup-svg"
               src="images/screen-mockups.svg"
               alt=""
             />
-          </article>
-        </sectdion>
+          </div>
+        </section>
 
         <article class="main__stats container flex">
-          <div class="main__communities flex">
+          <figure class="main__communities flex">
             <img
-              class=""
               src="images/icon-communities.svg"
               alt=""
               class="main__communities-svg"
             />
             <p class="main__communities-stats heading">1.4k+</p>
-            <p class="main__communities-formed">Communities Formed</p>
-          </div>
+            <figcaption class="main__communities-formed">
+              Communities Formed
+            </figcaption>
+          </figure>
 
-          <div class="main__messages flex">
+          <figure class="main__messages flex">
             <img
-              class=""
               src="images/icon-messages.svg"
               alt=""
               class="main__messages-svg"
             />
             <p class="main__messages-stats heading">2.7m+</p>
-            <p class="main__messages-sent">
+            <figcaption class="main__messages-sent">
               <span
                 >Messages<br />
                 Sent</span
               >
-            </p>
-          </div>
+            </figcaption>
+          </figure>
         </article>
 
-        <section class="main__features">
+        <section class="main__features" aria-label="Features Section">
           <article class="main__grow-together">
             <picture>
               <source
@@ -115,55 +116,49 @@
 
             <div class="main__bgcolor main__grow-together-padding">
               <div class="container gtc-2">
-                <article class="main__illust-container">
+                <div class="main__illust-container">
                   <img src="images/illustration-grow-together.svg" alt="" />
-                </article>
+                </div>
 
-                <article class="main__grow-together-content">
+                <div class="main__grow-together-content">
                   <h2 class="main__sub-heading heading">Grow Together</h2>
                   <p class="main__feature-desc">
                     Generate meaningful discussions with your audience and build
                     a strong, loyal community. Think of the insightful
                     conversations you miss out on with a feedback form.
                   </p>
-                </article>
+                </div>
               </div>
             </div>
 
-            <article>
-              <picture>
-                <source
-                  media="(min-width: 48em)"
-                  srcset="images/bg-section-bottom-desktop-1.svg"
-                />
-                <img
-                  src="images/bg-section-bottom-mobile-1.svg"
-                  alt=""
-                  class="curved-bg"
-                />
-              </picture>
-            </article>
+            <picture>
+              <source
+                media="(min-width: 48em)"
+                srcset="images/bg-section-bottom-desktop-1.svg"
+              />
+              <img
+                src="images/bg-section-bottom-mobile-1.svg"
+                alt=""
+                class="curved-bg"
+              />
+            </picture>
           </article>
 
           <article class="main__flowing-conversation">
-            <div class="">
-              <div class="container gtc-2">
-                <article class="main__illust-container">
-                  <img
-                    src="images/illustration-flowing-conversation.svg"
-                    alt=""
-                  />
-                </article>
-                <article class="main__flowing-conversation-content">
-                  <h2 class="main__sub-heading heading">
-                    Flowing Conversations
-                  </h2>
-                  <p class="main__feature-desc">
-                    You wouldn't paginate a conversation in real life, so why do
-                    it online? Our threads have just-in-time loading for a more
-                    natural flow.
-                  </p>
-                </article>
+            <div class="container gtc-2">
+              <div class="main__illust-container">
+                <img
+                  src="images/illustration-flowing-conversation.svg"
+                  alt=""
+                />
+              </div>
+              <div class="main__flowing-conversation-content">
+                <h2 class="main__sub-heading heading">Flowing Conversations</h2>
+                <p class="main__feature-desc">
+                  You wouldn't paginate a conversation in real life, so why do
+                  it online? Our threads have just-in-time loading for a more
+                  natural flow.
+                </p>
               </div>
             </div>
           </article>
@@ -180,65 +175,60 @@
                 class="curved-bg"
               />
             </picture>
+
             <div class="main__bgcolor main__your-users-padding">
               <div class="container gtc-2">
-                <article class="main__illust-container">
+                <div class="main__illust-container">
                   <img src="images/illustration-your-users.svg" alt="" />
-                </article>
-                <article class="main__your-users-content">
+                </div>
+                <div class="main__your-users-content">
                   <h2 class="main__sub-heading heading">Your Users</h2>
                   <p class="main__feature-desc">
                     It takes no time at all to integrate Huddle with your app's
                     authentication solution. This means, once signed in to your
                     app, your users can start chatting immediately.
                   </p>
-                </article>
+                </div>
               </div>
             </div>
-            <article>
-              <picture>
-                <source
-                  media="(min-width: 48em)"
-                  srcset="images/bg-section-bottom-desktop-2.svg"
-                />
-                <img
-                  src="images/bg-section-bottom-mobile-2.svg"
-                  alt=""
-                  class="curved-bg"
-                />
-              </picture>
-            </article>
+
+            <picture>
+              <source
+                media="(min-width: 48em)"
+                srcset="images/bg-section-bottom-desktop-2.svg"
+              />
+              <img
+                src="images/bg-section-bottom-mobile-2.svg"
+                alt=""
+                class="curved-bg"
+              />
+            </picture>
           </article>
         </section>
 
-        <section class="main__cta container">
+        <section class="main__cta container" aria-labelledby="main-cta-heading">
           <div class="main__cta-padding">
-            <h2 class="main__sub-heading heading">
+            <h2 class="main__sub-heading heading" id="main-cta-heading">
               <span> Ready To Build Your <br class="cta__br" />Community?</span>
             </h2>
-            <button class="cta__btn btn">Get Started For Free</button>
+            <a class="cta__btn btn" href="#">Get Started For Free</a>
           </div>
         </section>
       </main>
 
       <footer class="footer">
-        <article>
-          <picture>
-            <source
-              media="(min-width: 48em)"
-              srcset="images/bg-footer-top-desktop.svg"
-            />
-            <img
-              src="images/bg-footer-top-mobile.svg"
-              alt=""
-              class="curved-bg"
-            />
-          </picture>
-        </article>
+        <picture>
+          <source
+            media="(min-width: 48em)"
+            srcset="images/bg-footer-top-desktop.svg"
+          />
+          <img src="images/bg-footer-top-mobile.svg" alt="" class="curved-bg" />
+        </picture>
+
         <!-- svg here is logo to modify (color) -->
         <div class="footer__bgcolor footer__padding">
           <div class="gtc-2 container">
-            <article class="footer__newsletter">
+            <section class="footer__newsletter">
               <h2 class="footer__sub-heading heading">Newsletter</h2>
               <p class="footer__desc">
                 To recieve tips on how to grow your community, sign up to our
@@ -246,9 +236,6 @@
                 email address
               </p>
               <form class="footer__newsletter-form" action="#" method="post">
-                <!-- <label for="footerEmail" class="footer__label visually-hidden"
-            >Email address</label
-           > -->
                 <div class="footer__form-group">
                   <input
                     aria-label="Email address"
@@ -264,9 +251,9 @@
                   </button>
                 </div>
               </form>
-            </article>
+            </section>
 
-            <article class="footer__contacts">
+            <section class="footer__contacts">
               <svg
                 width="240"
                 height="39"
@@ -294,12 +281,12 @@
 
               <ul class="footer__list">
                 <li class="footer__list-item">
-                  <img src="images/icon-phone.svg" alt="#" /><span
+                  <img src="images/icon-phone.svg" alt="" /><span
                     ><a href="#">Phone: +1-543-123-4567</a></span
                   >
                 </li>
                 <li class="footer__list-item">
-                  <img src="images/icon-email.svg" /><span
+                  <img src="images/icon-email.svg" alt="" /><span
                     ><a href="#">example@huddle.com</a></span
                   >
                 </li>
@@ -307,7 +294,11 @@
 
               <ul class="footer__social-links">
                 <li>
-                  <a class="footer__social-link" href="#">
+                  <a
+                    class="footer__social-link"
+                    href="#"
+                    aria-label="Go to our facebook page"
+                  >
                     <img
                       src="icomoon-folder/SVG/facebook2.svg"
                       alt=""
@@ -316,7 +307,11 @@
                   </a>
                 </li>
                 <li>
-                  <a class="footer__social-link" href="#">
+                  <a
+                    class="footer__social-link"
+                    href="#"
+                    aria-label="Go to our instagram page"
+                  >
                     <img
                       src="icomoon-folder/SVG/instagram.svg"
                       alt=""
@@ -325,7 +320,11 @@
                   </a>
                 </li>
                 <li>
-                  <a class="footer__social-link" href="#">
+                  <a
+                    class="footer__social-link"
+                    href="#"
+                    aria-label="Go to our twitter page"
+                  >
                     <img
                       src="icomoon-folder/SVG/twitter.svg"
                       alt=""
@@ -334,7 +333,7 @@
                   </a>
                 </li>
               </ul>
-            </article>
+            </section>
           </div>
         </div>
       </footer>
