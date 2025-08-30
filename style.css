@@ -181,9 +181,6 @@ textarea:not([rows]) {
   max-width: 335px;
 }
 
-.header {
-}
-
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -221,9 +218,6 @@ textarea:not([rows]) {
 .main {
   margin: var(--spacing-96) 0 0;
   text-align: center;
-}
-
-.huddle-landing-page-with-curved-sections {
 }
 
 .heading {
@@ -292,13 +286,6 @@ textarea:not([rows]) {
   color: var(--Very-Dark-Cyan);
 }
 
-.main__communities-formed {
-}
-
-.main__messages {
-  /* display: grid; */
-}
-
 .main__messages > * {
   margin: 0;
 }
@@ -355,14 +342,8 @@ textarea:not([rows]) {
   max-width: 290px;
 }
 
-.main__flowing-conversation {
-}
-
 .main__your-users {
   margin-block-end: var(--spacing-64);
-}
-
-.main__cta {
 }
 
 .main__cta .main__sub-heading {
@@ -374,9 +355,6 @@ textarea:not([rows]) {
   flex-direction: column;
 
   font-size: var(--font-size-28);
-}
-
-.main__cta-btn {
 }
 
 .footer {
@@ -401,12 +379,6 @@ textarea:not([rows]) {
   text-transform: uppercase;
 
   margin: 0;
-}
-
-.footer__desc {
-}
-
-.footer__newsletter-form {
 }
 
 .footer__form-group {
@@ -558,10 +530,6 @@ textarea:not([rows]) {
     margin-left: 0;
   }
 
-  .main__communities-stats,
-  .main__messages-stats {
-  }
-
   .main__messages-sent br {
     display: none;
   }
@@ -590,10 +558,6 @@ textarea:not([rows]) {
 
   .main__flowing-conversation {
     text-align: start;
-  }
-
-  .main__flowing-conversation .gtc-2 {
-    /* gap: var(--spacing-48); */
   }
 
   .main__grow-together .main__illust-container,
